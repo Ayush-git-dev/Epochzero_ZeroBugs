@@ -1,0 +1,23 @@
+
+
+#testimonials {
+
+ background-color: #008891;
+ color:#e7e7de;
+
+ padding:10% 20%;
+}
+
+
+.testimonial-text {
+ line-height: 1.5;
+ font-size: 3rem;
+ text-align: center;
+ font-family: 'Staatliches', cursive;
+}
+
+
+.small{
+  padding:5% 42%;
+  font-size: 1rem;
+}
