@@ -491,7 +491,7 @@ nav .menu-btn{
 
 footer{
   background: #f1f1f1;
-  padding: 90px 0;
+  padding: 70px 0;
 }
 
 .footer-container{
@@ -499,7 +499,7 @@ footer{
   margin: auto;
   padding: 0 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   flex-wrap: wrap-reverse;
 }
@@ -521,7 +521,7 @@ footer{
 }
 
 .social-media a:hover{
-  color: #fc5c65;
+  color: #008891;
 }
 
 .right-col h1{
@@ -536,8 +536,8 @@ footer{
 
 .newsletter-form{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
   flex-wrap: wrap;
 }
 
@@ -558,7 +558,7 @@ footer{
   padding: 18px 40px;
   font-size: 16px;
   color: #f1f1f1;
-  background: #fc5c65;
+  background: #008891;
   border: none;
   font-weight: 700;
   outline: none;
@@ -576,7 +576,7 @@ footer{
   min-height: 100vh;
   font-size: 40px;
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: center;
 }
 
