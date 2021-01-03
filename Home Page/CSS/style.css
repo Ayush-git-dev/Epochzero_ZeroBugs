@@ -10,8 +10,15 @@ body{
     letter-spacing: 1px;
     font-weight: 200;
     margin: 0px;
+    align-content: flex-start
+    ;
 }
-  
+  .logo h1{
+    position: relative;
+    font-weight: 200;
+    top: -138px;
+    left: 40px;
+  }
 *{
     box-sizing: border-box;
 }
@@ -41,7 +48,7 @@ nav{
     box-shadow: 2px 2px 20px #008891;
     z-index: 1;
     width:100%;
-    height: auto;
+    height: 75px;
     position: fixed;
     left: 0px;
     top: 0px;
