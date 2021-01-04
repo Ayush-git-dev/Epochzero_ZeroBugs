@@ -508,11 +508,13 @@ nav .menu-btn{
 
 footer{
   background: #f1f1f1;
-  padding: 70px 0;
+	height: 400px;
+  padding: 70px 10px;
 }
 
 .footer-container{
-  max-width: 1300px;
+  max-width: 900px;
+	max-height: 600px;
   margin: auto;
   padding: 0 20px;
   display: flex;
@@ -544,9 +546,16 @@ footer{
 .social-media a:hover{
   color: #008891;
 }
-
+.right-col{
+		 position: relative;
+	font-family: calibri;
+	font-size: 20px;
+    font-weight: 200;
+    top: -90px;
+    left: 20px;
+}
 .right-col h1{
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .border{
@@ -600,6 +609,34 @@ footer{
   display: flex;
   align-items: right;
   justify-content: right;
+}
+.left-col {
+	 position: relative;
+    font-weight: 200;
+    top: -50px;
+    left: -250px;
+}
+.footer-container h1{
+	    position: relative;
+    font-weight: 200;
+    top: -69px;
+    left: 20px;
+}
+.left-col-info h2{
+	 position: relative;
+	font-family: calibri;
+	font-size: 20px;
+    font-weight: 200;
+    top: -35px;
+    left: 20px;
+}
+.left-col-info h1{
+		 position: relative;
+	font-family: calibri;
+	font-size: 20px;
+    font-weight: 200;
+    top: -35px;
+    left: 20px;
 }
 
 @media screen and (max-width:960px) {
