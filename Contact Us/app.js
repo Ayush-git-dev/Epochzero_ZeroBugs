@@ -1,18 +1,19 @@
-const inputs = document.querySelectorAll(".input");
 
-function focusFunc() {
-  let parent = this.parentNode;
-  parent.classList.add("focus");
+
+// Validating Empty Field
+function check_empty() {
+if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+alert("Fill All Fields !");
+} else {
+document.getElementById('form').submit();
+alert("Form Submitted Successfully...");
 }
-
-function blurFunc() {
-  let parent = this.parentNode;
-  if (this.value == "") {
-    parent.classList.remove("focus");
-  }
 }
-
-inputs.forEach((input) => {
-  input.addEventListener("focus", focusFunc);
-  input.addEventListener("blur", blurFunc);
-});
+//Function To Display Popup
+function div_show() {
+document.getElementById('abc').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide(){
+document.getElementById('abc').style.display = "none";
+}
