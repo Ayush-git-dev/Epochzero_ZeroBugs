@@ -640,6 +640,55 @@ footer{
     left: 20px;
 }
 
+
+.flex_container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 90px;
+    
+   
+}
+
+.box1,.box2,.box3,.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_data{
+    font-size: 20px;
+    font-weight:900;
+    
+
+}
+
+.box1 img{
+    width: 4em;
+    height: 4em;
+   
+  
+}
+
+.box2 img{
+    width: 4em;
+    height: 4em;
+    
+}
+
+.box3 img{
+    width: 4em;
+    height: 4em;
+   
+}
+
+.box4 img{
+    width: 4em;
+    height: 4em;
+   
+}
+
 @media screen and (max-width:960px) {
   .footer-container{
     max-width: 600px;
