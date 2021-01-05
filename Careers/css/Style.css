@@ -257,7 +257,7 @@ form h3, form h6{
 form h6{
     padding-left: 4.5rem;
     font-family: var(--Lobster);
-    color: #444444d2;
+    color: #444444;
 }
 
 form .form-group{
@@ -289,7 +289,21 @@ form .form-group .form-input{
 form input:focus{
     outline: none;
 }
-
+.input-font {
+	max-height: 0px;
+}
+form h3{
+	position: relative;
+	top: 0px;
+	left: -73px;
+font-family: var(--Montserrat);
+    padding: 0;
+    margin: 0;
+    padding-left: 3rem;
+	font-weight: 200;
+	color: #444444d2;
+	font-size: 16px;
+}
 form .input-icon{
 	display: inline-block;
     padding-left: 40px;
@@ -300,7 +314,7 @@ form .input-icon{
 	font-family: calibri;
 	background: #;
     font-weight: 200;
-    top: -30px;
+    top: -2px;
     left: 130px;
 }
 #custom-button {
