@@ -259,6 +259,11 @@ nav ul li a:hover{
     flex-wrap: wrap;
     margin: 20px 30px;
 }
+.box:hover{
+    transform: scale(1.1);
+}
+
+
 .box{
     display: flex;
     flex-direction: column;
