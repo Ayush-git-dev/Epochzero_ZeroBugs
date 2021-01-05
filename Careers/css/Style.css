@@ -194,6 +194,7 @@ form .form-group .form-input{
     left: 40px;
     background: transparent;
     border: none;
+	max-height: 20px;
     font-family: var(--Montserrat);
     font-size: .9rem;
     overflow: hidden;
@@ -208,9 +209,45 @@ form .input-icon{
     padding-left: 50px;
 	color: var(--border-color);
 }
+.ddl-flat{
+	 position: relative;
+	font-family: calibri;
+	background: #;
+    font-weight: 200;
+    top: -30px;
+    left: 130px;
+}
+#custom-button {
+  padding: 8px;
+  color: white;
+  background-color: #008891;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+	 position: relative;
+	font-family: calibri;
+    font-weight: 200;
+    top: -10px;
+    left: 30px;
+}
+
+#custom-button:hover {
+  background-color: #00587a;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+	position: relative;
+	font-family: calibri;
+    font-weight: 200;
+    top: -10px;
+    left: 30px;
+}
 
 form .btn-login{
     float: none;
-    padding: .8rem 5rem;
+    padding: .4rem 4rem;
     margin-left: 2rem;
 }
