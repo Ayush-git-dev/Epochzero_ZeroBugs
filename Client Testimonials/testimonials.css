@@ -1,23 +1,34 @@
 
+body{
+
+    background-image: url("images/body-bg.png");
+}
 
 #testimonials {
 
- background-color: #008891;
- color:#e7e7de;
 
- padding:10% 20%;
-}
+ color:#e7e7de;
+ margin:10% 20%;
+  background-color: #008891;
+
+   }
+
+
 
 
 .testimonial-text {
+  margin-top: 5%;
  line-height: 1.5;
  font-size: 3rem;
  text-align: center;
- font-family: 'Staatliches', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
 }
 
 
 .small{
   padding:5% 42%;
   font-size: 1rem;
+  /* font-family: 'Patua One', cursive;  */
+font-family: 'IBM Plex Sans', sans-serif;
+text-align: center;
 }
