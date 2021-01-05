@@ -38,12 +38,14 @@ html, body{
     grid-template-columns: 65% 35%;
     height: 100%;
     background: #fff;
+	box-shadow: 3px 4px 7px rgba(27, 27, 27, 0.534);
 }
 
 .liquid{
     background: url('../assets/pic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+	box-shadow: 3px 4px 10px rgba(27, 27, 27, 0.534);
 }
 
 .liquid h4{
