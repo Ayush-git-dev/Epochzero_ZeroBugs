@@ -191,10 +191,14 @@ nav ul li a:hover{
 .mission-heading{
 	position: relative;
 	top: 65px;
+	font-family: calibri;
+	text-align: center;
 }
 .vision-heading{
 	position: relative;
 	top: 45px;
+	text-align: center;
+		
 }
 .scroll{
     position: absolute;
