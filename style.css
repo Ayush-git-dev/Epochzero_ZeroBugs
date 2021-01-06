@@ -80,9 +80,9 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
+    position: relative;
     left: 50%;
-    top:50%;
+    top:40%;
     transform: translate(-50%,-50%);
     width:90%;
 
@@ -130,10 +130,15 @@ nav ul li a:hover{
     background-color: #5a62fd;
     transition: all ease 0.3s;
 }
+.flex_container {
+	position: relative;
+	top: 15px;
+	left: 0px;
+}
 .timing{
     position: absolute;
     left:20%;
-    bottom: 10px;
+    bottom: -70px;
     transform: translateX(-20%);
     display: flex;
     justify-content: space-around;
@@ -182,6 +187,14 @@ nav ul li a:hover{
     border-color: #5a76fd transparent transparent transparent;
     right: -0.7em;
     bottom: -2px;
+}
+.mission-heading{
+	position: relative;
+	top: 65px;
+}
+.vision-heading{
+	position: relative;
+	top: 45px;
 }
 .scroll{
     position: absolute;
