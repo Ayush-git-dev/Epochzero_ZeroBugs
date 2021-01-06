@@ -6,6 +6,7 @@ body{
   margin:0px;
     padding: 0px;
     font-family: calibri;
+    box-sizing: border-box;
 }
 .logo {
     font-size: 1.5rem;
@@ -14,8 +15,8 @@ body{
     letter-spacing: 1px;
     font-weight: 200;
     margin: 0px;
-    align-content: flex-start
-    ;
+    align-content: flex-start;
+    
 }
   .logo h1{
     position: relative;
@@ -23,9 +24,7 @@ body{
     top: -60px;
     left: 40px;
   }
-*{
-    box-sizing: border-box;
-}
+
 ul{
     list-style: none;
 }
@@ -82,7 +81,7 @@ nav ul li a:hover{
 }
 
 
-}
+
 
 body,
 input,
@@ -459,4 +458,15 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
+
 }
+
+.contact-form-off-display{
+  display:none
+}
+
+.contact-form-display{
+  
+}
+
+
