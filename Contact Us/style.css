@@ -461,6 +461,7 @@ textarea.input {
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .contact-form-off-display{
   display:none
@@ -472,6 +473,9 @@ textarea.input {
 
 
 =======
+=======
+
+>>>>>>> 5ee62ceed4fe399cb5e9a36672d88d551ce6131e
 .footer {
   background-color: #008891;
   width: 110%;
@@ -640,4 +644,18 @@ padding-left: 150px;
     margin-left: 0;
   }
 }
+<<<<<<< HEAD
 >>>>>>> a7bbe00b2c846125ff6a8f29b4fee53d628e2bf9
+=======
+
+
+.contact-form-off-display{
+  display:none
+}
+
+.contact-form-display{
+  
+}
+
+
+>>>>>>> 5ee62ceed4fe399cb5e9a36672d88d551ce6131e
