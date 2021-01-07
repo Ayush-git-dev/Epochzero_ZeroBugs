@@ -434,14 +434,15 @@ i {
 }
 .footer {
   background-color: #008891;
-  width: 100%;
+  width: 110%;
 height: 100%;
   text-align: left;
   font-family: calibri;
   font-weight: bold;
   font-size: 16px;
-  padding: 50px;
-  margin-top: 50px;
+  padding-left: 50px;
+	margin-left: -50px;
+  margin-top: 80px;
 }
 
 .footer .footer-left,
