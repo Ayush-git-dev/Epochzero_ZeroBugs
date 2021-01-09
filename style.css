@@ -442,6 +442,7 @@ i {
 }
 .footer {
   background-color: #008891;
+	max-height: 300px;
   width: 110%;
 height: 100%;
   text-align: left;
@@ -450,7 +451,7 @@ height: 100%;
   font-size: 16px;
   padding-left: 50px;
 	margin-left: -50px;
-  margin-top: 80px;
+  margin-top: -350px;
 }
 
 .footer .footer-left,
