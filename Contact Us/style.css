@@ -4,6 +4,7 @@ html{
 position: relative;
 }
 body{
+	overflow-x: hidden;
 	padding: 40px;
 }
 * {
