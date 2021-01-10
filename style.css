@@ -973,8 +973,7 @@ background: linear-gradient(90deg, rgba(0,88,122,1) 0%, rgba(0,136,145,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-background: rgb(0,88,122);
-background: linear-gradient(90deg, rgba(0,88,122,1) 0%, rgba(0,136,145,1) 100%);}
+}
 
 .img-slider{
   position: relative;
