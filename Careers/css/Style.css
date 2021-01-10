@@ -464,11 +464,9 @@ form .input-icon{
 }
 .ddl-flat{
 	  display: inline-block;
-  background-color: ;
   z-index: 0;
 	 position: relative;
 	font-family: calibri;
-	fg: #008891;
     font-weight: 200;
     top: -2px;
     left: 112px;
